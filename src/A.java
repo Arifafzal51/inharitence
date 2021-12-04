@@ -1,6 +1,6 @@
 public class A
 {
-    showA()
+    //showA()
     {
         System.out.println("a  class method");
     }
