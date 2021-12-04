@@ -1,5 +1,5 @@
 public class shape {
-   static public void draw() {
+    public void draw() {
         System.out.println("Drawing Shape");
     }
 
@@ -7,13 +7,13 @@ public class shape {
         System.out.println("Erasing Shape");
     }
 }
-class dislay
+class display
 {
     public static void main(String[] args) {
         shape obj1=new shape();
         obj1.erase();
-       // shape.erase();
-        shape.draw();
+        shape obj2=new shape();
+        obj2.draw();
     }
 }
 
